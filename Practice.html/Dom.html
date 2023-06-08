@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Object Model</title>
+</head>
+<body>
+  <button>hello</button>
+  <button class="Js-button">Second button</button>
+  <script>
+      console.log(document.querySelector('button'));
+      document.querySelector('button').innerHTML = 'changed ';
+      console.log(document.querySelector('.Js-button'));
+
+    /*
+      console.log(document.title);
+      document.title = 'Changed';
+
+      console.log(document.body);
+      console.log(typeof document.body);
+
+      console.log(document.body.innerHTML);
+      document.body.innerHTML = '<button>Jessi</button>';
+      */
+
+    /*
+      document.body.innerHTML = 'HELLO'
+      document.title = 'Good One!'
+      */ 
+  </script>
+</body>
+</html>

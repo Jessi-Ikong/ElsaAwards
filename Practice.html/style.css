@@ -1,0 +1,50 @@
+
+
+.p {
+    font-family: arial;
+}
+.title {
+  color: rgb(83, 43, 226);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 24px;
+  cursor: pointer;
+  }
+  .views-stats {
+      font-size: 15px;
+      color: rgb(128, 128, 128);
+      cursor: pointer;
+      margin-top: 0;
+      margin-bottom: 20;
+  }
+  .marques {
+      font-size: 15px;
+      color: rgb(128, 128, 128);
+      margin-top: 0;
+      margin-bottom: 15px;
+  }
+  .opportunity {
+      font-size: 15px;
+  color: rgb(128, 128, 128);
+  width: 300px;
+  line-height: 25px;
+  }
+  .shop {
+      font-size: 15px;
+      background-color: rgb(227, 65, 64);
+      color: white;
+      text-align: center;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      width: 500px;
+      cursor: pointer;
+      margin-top: 50px;
+  }
+  .span {
+      color: blue;
+      margin-left: 13px;
+  }
+  .span:hover {
+      text-decoration: underline;
+  }
